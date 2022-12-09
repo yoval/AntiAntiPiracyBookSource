@@ -1,0 +1,56 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "自制",
+    "bookSourceName": "74文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.74wx.vip",
+    "customOrder": -2085977937,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "玄幻魔法::/sort/1_{{page}}/\n仙侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游竞技::/sort/5_{{page}}/\n科幻灵异::/sort/6_{{page}}/\n其他小说::/sort/7_{{page}}/",
+    "lastUpdateTime": 1670562530339,
+    "respondTime": 19459,
+    "ruleBookInfo": {
+      "author": "//div[@class='cataloginfo']/div[@class='infotype']/p[1]/a/text()",
+      "coverUrl": "//div[@class='infohead']/div[@class='pic']/img/@src",
+      "intro": "//div[@class='intro']/p[1]##【展开】【收起】",
+      "kind": "//div[@class='cataloginfo']/div[@class='infotype']/p[2]/text()##类型：",
+      "lastChapter": "//div[@class='cataloginfo']/div[@class='infotype']/p[4]/a/text()",
+      "name": "//div[@class='cataloginfo']/h3/text()"
+    },
+    "ruleContent": {
+      "content": "class.novelcontent@id.nr@all",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##一秒记住.*|.*(第\\d+/\\d+页)|.*(点击下一页继续阅读).*|(百度).*(最新章节)|(百度).*(文学网)|(百度).*(网。)"
+    },
+    "ruleExplore": {
+      "author": "//div[@class='content']/p[@class='author']/a/text()",
+      "bookList": "//div[@class='branch_menu']/div[@class='article']",
+      "bookUrl": "//div[@class='content']/h6/a/@href",
+      "coverUrl": "//div[@class='pic']/a/img/@src",
+      "intro": "//div[@class='content']/p[@class='simple']/text()",
+      "kind": "",
+      "name": "//div[@class='content']/h6/a/text()"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "//span[@class='author']/a/text()",
+      "bookList": "//div[@class='searchresult']/p[@class='sone']",
+      "bookUrl": "//p[@class='sone'][1]/a/@href",
+      "checkKeyWord": "",
+      "kind": "",
+      "name": "//a/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//div[@class='info_menu1'][2]/div[@class='list_xm']/ul/li/a",
+      "chapterName": "//text()",
+      "chapterUrl": "//@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n  \"body\": \"type=articlename&s={{key}}\",\n  \"charset\": \"GBK\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  }
+]
