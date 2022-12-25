@@ -45,7 +45,7 @@
       "coverUrl": "img@src",
       "intro": "class.size12 compulsory-row mb10 mt10 lh130 color4@text",
       "kind": "class.pt-recomment-label@text",
-      "name": "class.size14@text"
+      "name": "class.size14@a@text"
     },
     "ruleToc": {
       "chapterList": "class.pl30",
