@@ -1,0 +1,58 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "自制",
+    "bookSourceName": "仓颉悦文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.cangjieyuewen.com",
+    "customOrder": -2085978138,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "enabledReview": true,
+    "exploreUrl": "玄幻::/category/xuanhuan/{{page}}.html\n奇幻::/category/qihuan/{{page}}.html\n武侠::/category/wuxia/{{page}}.html\n仙侠::/category/xianxia/{{page}}.html\n都市::/category/dushi/{{page}}.html\n历史::/category/lishi/{{page}}.html\n军事::/category/junshi/{{page}}.html\n游戏::/category/youxi/{{page}}.html\n竞技::/category/jingji/{{page}}.html\n科幻::/category/kehuan/{{page}}.html\n灵异::/category/lingyi/{{page}}.html\n其他::/category/qita/{{page}}.html",
+    "lastUpdateTime": 1671950672206,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.size14 color32@text",
+      "coverUrl": "//div[@class='flex-wrp bg-white pt-bookdetail']/img[@class='mr15']/@src",
+      "intro": "class.compulsory-row-three pt-book-intro@text",
+      "kind": "class.size12 lh100 color4@a@title",
+      "lastChapter": "class.flex-wrp flex-between pt10 pb10.0@text",
+      "name": "h1@text",
+      "tocUrl": "//body/div[4]/a/@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.pt-pop@html##本章未完.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "class.size12@a@text",
+      "bookList": "class.flex-wrp pt-popular-item",
+      "bookUrl": "class.size14@a@href",
+      "coverUrl": "img@src",
+      "intro": "class.size12 compulsory-row mb10 mt10 lh130 color4@text",
+      "kind": "class.pt-popular-label@text",
+      "name": "class.size14@a@text"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "class.color5 size12@text##\\[|\\]",
+      "bookList": "class.pt-recomment-cont",
+      "bookUrl": "class.size14 color7@a@href",
+      "checkKeyWord": "",
+      "coverUrl": "img@src",
+      "intro": "class.size12 compulsory-row mb10 mt10 lh130 color4@text",
+      "kind": "class.pt-recomment-label@text",
+      "name": "class.size14@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.pl30",
+      "chapterName": "a@title",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "/search/result.html?searchkey={{key}}",
+    "weight": 0
+  }
+]
